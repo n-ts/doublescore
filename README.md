@@ -3,7 +3,11 @@ Tiny JavaScript Element Selector.
 
 Replace `querySelector`, `querySelectorAll`, `getElementById`, `getElementsByTagName` and `getElementsByClassName` with one tiny function. This can save hundreds of bytes and make your code more readable.
 
+
 # Usage
+
+Bundle / Include `doublescore.min.js` file in your project and call `__` function to select elements.
+
 ```javascript
 // document.getElementById("targetElm").innerHTML = "Lorem ipsum<br>";
 __("#targetElm").innerHTML = "Lorem ipsum<br>";
